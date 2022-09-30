@@ -1,0 +1,25 @@
+{
+  "name": "own_website",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel ./src/index.html",
+    "prebuild": "npx rimraf build",
+    "build": "build parcel --public-url ./ ./src/index.html"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@popperjs/core": "^2.11.6",
+    "b": "^2.0.1",
+    "bootstrap": "^5.2.0",
+    "fpl-api": "^4.0.4",
+    "n": "^9.0.0",
+    "node": "^16.17.0"
+  },
+  "devDependencies": {
+    "sass": "^1.54.5"
+  }
+}
